@@ -27,7 +27,7 @@
 <p align="center">
   <img src="https://www.nsc.com.sg/Style%20Library/Images/NSC-printlogo.jpg" width="300" height="150"> <img src="https://www.a-star.edu.sg/images/librariesprovider1/default-album/logo_astar260a6302b97b44ffa1029cfcc87fc485.jpg" width="300" height="150">
 </p>
-<p align="center">
+<p align="justify">
   <em>Figure 1: The logos of the National Skin Center (left) and the Agency for Science, Technology and Research (right). The project was a collaboration between the two. </em>
 </p>
 <p align="justify">
@@ -61,7 +61,7 @@
 <p align="center">
   <img src="https://github.com/wongkwmelvin/AIAP/blob/master/Images/skin%20spectra.png" width="300" height="250">
 </p>
-<p align="center">
+<p align="justify">
   <em>Figure 2: Raman spectrum of the skin after it had been denoised and had its fluorescence background removed. The least squares spectral unmixing algorithm was used to obtain the fitting and the relative concentration of the skin biomolecules.</em>
 </p>
 <p align="justify">
@@ -72,7 +72,7 @@
 <p align="center">
   <img src="https://github.com/wongkwmelvin/AIAP/blob/master/Images/features.png">
 </p>
-<p align="center">
+<p align="justify">
   <em>Figure 3: Box plots showing the 3 main features used to train the classification model. From left to right: water, ceramide, urocanic acid. </em>
 </p>
 <p align="justify">
@@ -85,8 +85,8 @@
 <p align="center">
   <img src="https://github.com/wongkwmelvin/AIAP/blob/master/Images/roc.png" width="300" height="250"> <img src="https://github.com/wongkwmelvin/AIAP/blob/master/Images/accuracy.png" width="300" height="240">
 </p>
-<p align="center">
-  <em>Figure 4: The receiver operating characteristic (ROC) curve (left) and a table showing the accuracy, area under curve of ROC curve, sensitivity and specificity (right) of the the linear support vector machine model that was trained. </em>
+<p align="justify">
+  <em>Figure 4: The receiver operating characteristic (ROC) curve (left) and a table showing the accuracy, area under curve of ROC curve, sensitivity and specificity (right) of the linear support vector machine model that was trained. </em>
 </p>
 <p align="justify">
   Predicting between healthy and eczema is a binary classification problem. To obtain a reliable model, various models were trained and validated while taking into consideration the size of the data and the imbalanced nature of the two classes (ratio of eczema to healthy sujbects is about 2:1).
@@ -99,7 +99,7 @@
 <p align="center">
   <img src="https://github.com/wongkwmelvin/AIAP/blob/master/Images/ebi.png" width="300" height="230">
 </p>
-<p align="center">
+<p align="justify">
   <em>Figure 5: Box plots showing the novel Eczema Biochemical Index (EBI) in differentiating between the mild, moderate and severe case of eczema patients. EBI was obtained via a polynomial regression model trained using the relative concentration of skin biomolecules as features.</em>
 </p>
 <p align="justify">
@@ -113,21 +113,21 @@
 <p align="center">
   <img src="https://webassets.mongodb.com/_com_assets/cms/MongoDB_Logo_FullColorBlack_RGB-4td3yuxzjs.png" width="200" height="100"/>
 </p>
-<p align="center">
+<p align="justify">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Python_and_Qt.svg/800px-Python_and_Qt.svg.png" width="100" height="100"/>
 </p>
-<p align="center">
+<p align="justify">
   <em>Figure 6: The logos of MongoDB NOSQL non-relational database (top) and PyQT GUI development Python framework (bottom). Both were used extensively in the project. </em>
 </p>                                                                                                                      
 <p align="justify">
-  To facilitate the storing and the ease of access of the data, a MongoDB architecture was created. MongoDB was chosen due to its document style of data storage which corresponds well to Python's dictionary data type. A graphical user interface (GUI) was designed using PyQt to allow users to access the trained models locally.
+  To facilitate the storing and the ease of access of the data, a MongoDB architecture was created. MongoDB was chosen due to its document style of data storage which corresponds well to Python's dictionary data type. A graphical user interface (GUI) was designed using PyQt to allow users to access the trained models on a local machine.
 </p>
 
 ### Recognition<a name="recognition"></a>
 <p align="center">
   <img src="https://www.jdsjournal.com/pb/assets/raw/Health%20Advance/journals/desc/logo.jpg" width="500" height="150">
 </p>
-<p align="center">
+<p align="justify">
   <em>Figure 7: The logo of the Journal of Dermatological Science, in which an article about the project was published in. </em>
 </p>
 <p align="justify"> 
@@ -136,5 +136,5 @@
 
 ## Conclusion <a name="conclusion"></a>
 <p align="justify">
-  The results of this project was achieved through a self-directed learning path that took me through learning Python, PyQt GUI development, MongoDB database, data handling, multiple machine/deep learning models, model optimization and model validation. Despite the achievements from this project, I have yet to get the opportunity to work on deploying the model in production. I look forward to the opportunity to learn industry grade model deployment and deploy more solutions for other real world use cases in the AI apprenticeship programme. Thank you for your consideration.
+  The results of this project was achieved through a self-directed learning path that took me through learning Python, PyQt GUI development, MongoDB database, data handling, multiple machine/deep learning models, model optimization and model validation. Despite the achievements from this project, I have yet to get the opportunity to work on deploying the model in production. I look forward to the opportunity to learn the industry standard of model deployment and to deploy more solutions for other real world use cases in the AI apprenticeship programme. Thank you for your consideration.
 </p>
